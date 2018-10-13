@@ -1,0 +1,13 @@
+{"albums":[
+	{"id":"1", "artist":"Stereophonics", "album_name":"Word gets around", "genre":"indie/rock", "released":"1997","image":"image.jpg"},
+	{"id":"2", "artist":"Stereophonics", "album_name":"Performance and Cocktails", "genre":"indie/rock", "released":"1999", "image":"image.jpg"},
+	{"id":"3", "artist":"Stereophonics", "album_name":"Just Enough Education to Perform", "genre":"indie/rock", "released":"2001", "image":"image.jpg"},
+	{"id":"4", "artist":"Stereophonics", "album_name":"You Gotta Go There to Come Back", "genre":"indie/rock", "released":"2003", "image":"image.jpg"},
+	{"id":"5", "artist":"Stereophonics", "album_name":"Language. Sex. Violence. Other?", "genre":"indie/rock", "released":"2005", "image":"image.jpg"},
+	{"id":"6", "artist":"Stereophonics", "album_name":"Pull The Pin", "genre":"indie/rock", "released":"2007", "image":"image.jpg"},
+	{"id":"7", "artist":"Stereophonics", "album_name":"Keep Calm and Carry On", "genre":"indie/rock", "released":"2009", "image":"image.jpg"},
+	{"id":"8", "artist":"Stereophonics", "album_name":"Graffiti on the Train", "genre":"indie/rock", "released":"2013", "image":"image.jpg"},
+	{"id":"9", "artist":"Stereophonics", "album_name":"Keep the Village Alive", "genre":"indie/rock", "released":"2015", "image":"image.jpg"},
+	{"id":"10", "artist":"Stereophonics", "ablum_name":"Scream Above the Sounds", "genre":"indie/rock", "released":"2017", "image":"image.jpg"}
+	]
+}
