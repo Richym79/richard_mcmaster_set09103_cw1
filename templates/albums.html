@@ -1,0 +1,40 @@
+<! doctype html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/main_layout.css') }}" type="text/css">	
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/albums.css') }}" type="text/css">	
+	<title>Jive Music Finder</title>
+</head>
+
+<body>
+	<div id="header">
+		<div id="header_app_logo"></div>
+		<div id="header_company_name">JIVE</div>
+	</div>
+	<div style="clear:both"></div>
+	<div id="content">
+		<div id="thumbnail_list_container">
+			{% for album in albums	%}				
+				<div class="album_thumbnail_container">
+					<a href="/tracks/?album={{album["id"]}}">
+					<div id="album_thumbnail_{{album["id"]}}" class="album_thumbnail_btn">
+						<div class="album_thumbnail_img">
+							<img src="{{ url_for('static', filename='images/'+album["image"]) }}" width="100%" alt=""/>
+						</div>
+					</div>
+					</a>
+				</div>
+			{% endfor %}
+
+		</div>
+	</div>
+
+
+	<div id="footer">Footer</div>
+</body>
+
+</html>
