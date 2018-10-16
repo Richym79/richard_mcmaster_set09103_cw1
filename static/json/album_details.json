@@ -1,13 +1,21 @@
 [
-{"id":"1", "artist":"Stereophonics", "album_name":"Word gets around", "genre":"indie/rock", "released":"1997","image":"word_gets_around_cover.jpg"},
-{"id":"2", "artist":"Stereophonics", "album_name":"Performance and Cocktails", "genre":"indie/rock", "released":"1999", "image":"performance_and_cocktails_cover.jpg"},
-{"id":"3", "artist":"Stereophonics", "album_name":"Just Enough Education to Perform", "genre":"indie/rock", "released":"2001", "image":"just_enough_education_to_perform_cover.jpg"},
-{"id":"4", "artist":"Stereophonics", "album_name":"You Gotta Go There to Come Back", "genre":"indie/rock", "released":"2003", "image":"you_gotta_go_there_to_come_back_cover.jpg"},
-{"id":"5", "artist":"Stereophonics", "album_name":"Language. Sex. Violence. Other?", "genre":"indie/rock", "released":"2005", "image":"language_sex_violence_other_cover.jpg"},
-{"id":"6", "artist":"Stereophonics", "album_name":"Pull The Pin", "genre":"indie/rock", "released":"2007", "image":"pull_the_pin_cover.jpg"},
-{"id":"7", "artist":"Stereophonics", "album_name":"Keep Calm and Carry On", "genre":"indie/rock", "released":"2009", "image":"keep_calm_and_carry_on_cover.jpg"},
-{"id":"8", "artist":"Stereophonics", "album_name":"Graffiti on the Train", "genre":"indie/rock", "released":"2013", "image":"graffiti_on_the_train_cover.jpg"},
-{"id":"9", "artist":"Stereophonics", "album_name":"Keep the Village Alive", "genre":"indie/rock", "released":"2015", "image":"keep_the_village_alive_cover.jpg"},
-{"id":"10", "artist":"Stereophonics", "album_name":"Scream Above the Sounds", "genre":"indie/rock", "released":"2017", "image":"scream_above_the_sounds_cover.jpg"}
+{"album_id":"1", "artist_id":"1", "artist":"Stereophonics", "album_name":"Word gets around", "genre":"indie/rock", "released":"1997","image":"stereophonics_word_gets_around.jpg"},
+{"album_id":"2", "artist_id":"1", "artist":"Stereophonics", "album_name":"Performance and Cocktails", "genre":"indie/rock", "released":"1999", "image":"stereophonics_performance_and_cocktails.jpg"},
+{"album_id":"3", "artist_id":"1", "artist":"Stereophonics", "album_name":"Just Enough Education to Perform", "genre":"indie/rock", "released":"2001", "image":"stereophonics_just_enough_education_to_perform.jpg"},
+{"album_id":"4", "artist_id":"1", "artist":"Stereophonics", "album_name":"You Gotta Go There to Come Back", "genre":"indie/rock", "released":"2003", "image":"stereophonics_you_gotta_go_there_to_come_back.jpg"},
+{"album_id":"5", "artist_id":"1", "artist":"Stereophonics", "album_name":"Language. Sex. Violence. Other?", "genre":"indie/rock", "released":"2005", "image":"stereophonics_language_sex_violence_other.jpg"},
+{"album_id":"6", "artist_id":"1", "artist":"Stereophonics", "album_name":"Pull The Pin", "genre":"indie/rock", "released":"2007", "image":"stereophonics_pull_the_pin.jpg"},
+{"album_id":"7", "artist_id":"1", "artist":"Stereophonics", "album_name":"Keep Calm and Carry On", "genre":"indie/rock", "released":"2009", "image":"stereophonics_keep_calm_and_carry_on.jpg"},
+{"album_id":"8", "artist_id":"1", "artist":"Stereophonics", "album_name":"Graffiti on the Train", "genre":"indie/rock", "released":"2013", "image":"stereophonics_graffiti_on_the_train.jpg"},
+{"album_id":"9", "artist_id":"1", "artist":"Stereophonics", "album_name":"Keep the Village Alive", "genre":"indie/rock", "released":"2015", "image":"stereophonics_keep_the_village_alive.jpg"},
+{"album_id":"10", "artist_id":"1", "artist":"Stereophonics", "album_name":"Scream Above the Sounds", "genre":"indie/rock", "released":"2017", "image":"stereophonics_scream_above_the_sounds.jpg"},
+
+{"album_id":"11", "artist_id":"2", "artist":"Mumford and Sons", "album_name":"Sigh No More", "genre":"folk/rock", "released":"2009", "image":"mumford_sigh_no_more.jpg"},
+{"album_id":"12", "artist_id":"2", "artist":"Mumford and Sons", "album_name":"Babel", "genre":"folk/rock", "released":"2012", "image":"mumford_babel.jpg"},
+{"album_id":"13", "artist_id":"2", "artist":"Mumford and Sons", "album_name":"Wilder Mind", "genre":"folk/rock", "released":"2015", "image":"mumford_wilder_mind.jpg"},
+{"album_id":"14", "artist_id":"2", "artist":"Mumford and Sons", "album_name":"Delta", "genre":"folk/rock", "released":"2018", "image":"mumford_delta.jpg"},
+
+{"album_id":"15", "artist_id":"3", "artist":"Rudimental", "album_name":"Home", "genre":"drum/bass", "released":"2013", "image":"rudimental_home.jpg"},
+{"album_id":"16", "artist_id":"3", "artist":"Rudimental", "album_name":"We the Generation", "genre":"drum/bass", "released":"2015", "image":"rudimental_we_the_generation.jpg"}
 ]
 
