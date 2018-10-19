@@ -18,12 +18,12 @@
 	<div style="clear:both"></div>
 	<div id="content">
 		<div id="thumbnail_list_container">
-			{% for album in albums	%}				
+			{% for artist in artists %}				
 				<div class="album_thumbnail_container">
-					<a href="/tracks/?album={{album["album_id"]}}">
-					<div id="album_thumbnail_{{album["album_id"]}}" class="album_thumbnail_btn">
+					<a href="/albums/?artist={{artist["artist_id"]}}">
+					<div id="album_thumbnail_{{artist["artist_id"]}}" class="album_thumbnail_btn">
 						<div class="album_thumbnail_img">
-							<img src="{{ url_for('static', filename='images/'+album["image"]) }}" width="100%" alt=""/>
+							<img src="{{ url_for('static', filename='images/'+artist["image"]) }}" width="100%" alt=""/>
 						</div>
 					</div>
 					</a>

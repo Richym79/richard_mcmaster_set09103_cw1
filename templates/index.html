@@ -1,0 +1,62 @@
+<! doctype html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/main_layout.css') }}" type="text/css">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}" type="text/css">
+	<title>Jive Music Finder</title>
+</head>
+
+<body>
+	<div id="header">
+		<div id="header_app_logo"></div>
+		<div id="header_company_name">JIVE</div>
+	</div>
+	<div style="clear:both"></div>
+	<div id="content">
+		<div id="artist_scroller" class="horizontal_icon_scroller">
+			<div id="artist_scroller_header" class="scroller_header">
+				Artists
+			</div>
+			<div class="icon_list_container">	
+				<div class="icon_scroller">
+					<div id="artist_list" class="icon_list">
+						<div class="icon_container">Icon 1</div>
+						<div class="icon_container">Icon 2</div>
+						<div class="icon_container">Icon 3</div>
+						<div class="icon_container">Icon 4</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+		<div id="album_scroller" class="horizontal_icon_scroller">
+			<div id="album_scroller_header" class="scroller_header">
+				Albums
+			</div>
+			<div class="icon_list_container">			
+				<div class="icon_scroller">
+					<div id="album_list" class="icon_list">
+						<div class="icon_container">Icon 1</div>
+						<div class="icon_container">Icon 2</div>
+						<div class="icon_container">Icon 4</div>
+						<div class="icon_container">Icon 4</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="tracks_scroller" class="horizontal_icon_scroller">
+			<div id="track_scroller" class="scroller_header">
+				Tracks
+			</div>
+			<div id="track_list" class="track_list">
+				Track List
+			</div>
+		</div>	
+	</div>
+
+</body>
+
+</html>
