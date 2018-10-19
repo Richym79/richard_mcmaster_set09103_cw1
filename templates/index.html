@@ -19,42 +19,76 @@
 	<div id="content">
 		<div id="artist_scroller" class="horizontal_icon_scroller">
 			<div id="artist_scroller_header" class="scroller_header">
-				Artists
+				<div class="scroller_header_text">
+					Artists : ({{ artistlen }})
+				</div>
 			</div>
 			<div class="icon_list_container">	
 				<div class="icon_scroller">
 					<div id="artist_list" class="icon_list">
-						<div class="icon_container">Icon 1</div>
-						<div class="icon_container">Icon 2</div>
-						<div class="icon_container">Icon 3</div>
-						<div class="icon_container">Icon 4</div>
+						{% for artist in artists %}
+						<div class="icon_container">						
+							<a href="/albums/?artist={{artist["artist_id"]}}">
+								<div id"artist_thumbnail_{{artist["artist_id"]}}" class="icon_thumbnail_btn">
+									<div class="icon_thumbnail_img">
+										<img src="{{ url_for('static', filename='images/'+artist["image"]) }}" height="100%" alt=""/>
+									</div>
+								</div>
+							</a>						
+						</div>
+						{% endfor %}
 					</div>	
 				</div>
 			</div>
 		</div>
 		<div id="album_scroller" class="horizontal_icon_scroller">
 			<div id="album_scroller_header" class="scroller_header">
-				Albums
+				<div class="scroller_header_text">
+					Albums : ({{ albumlen }})
+				</div>
 			</div>
 			<div class="icon_list_container">			
 				<div class="icon_scroller">
 					<div id="album_list" class="icon_list">
-						<div class="icon_container">Icon 1</div>
-						<div class="icon_container">Icon 2</div>
-						<div class="icon_container">Icon 4</div>
-						<div class="icon_container">Icon 4</div>
+						{% for album in albums %}
+						<div class="icon_container">
+							<a href="tracks/?album={{album["album_id"]}}">
+								<div id="album_thumbnail_{{album["album_id"]}}" class="icon_thumbnail_btn">
+									<div class="icon_thumbnail_img">
+										<img src="{{ url_for('static', filename='images/'+album["image"]) }}" height="100%" alt=""/>
+									</div>
+								</div>
+							</a>
+						</div>
+						{% endfor %}
 					</div>
 				</div>
 			</div>
 		</div>
-		<div id="tracks_scroller" class="horizontal_icon_scroller">
-			<div id="track_scroller" class="scroller_header">
-				Tracks
+		<div id="tracks_scroller" class="vertical_track_scroller">
+			<div id="track_scroller_header" class="scroller_header">
+				<div class="scroller_header_text">
+					Tracks : ({{ tracklen }})
+				</div>
 			</div>
-			<div id="track_list" class="track_list">
-				Track List
+			<div class="track_list_container">
+				<div class="track_scroller">
+					<div id="track_list" class="track_list">
+						{% for track in tracks %}
+							<div class="track_list_item">
+								<table width="100%" cellpadding="0%" cellspacing="0%" align="center">
+									<tr height="35px">
+							 			<td width="auto" align="left" valign="middle">{{ track["name"] }}</td>
+										<td width="auto" align="right" valign="middle">{{ track["length"] }}</td>
+									</tr>
+								</table>
+							</div>
+						{% endfor %} 
+					</div>
+				</div>
 			</div>
-		</div>	
+		
+		</div>
 	</div>
 
 </body>
