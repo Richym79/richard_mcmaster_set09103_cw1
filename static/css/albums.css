@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+
+#thumbnail_list_container {
+	width:98%;
+	padding-left:1%;
+	padding-right:1%;
+	height:auto;
+	padding-top:0%;
+	padding-bottom:0%;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+
+.album_thumbnail_btn {
+	position: relative;
+	width:98%;
+	height: auto;
+	margin-left: 1%;
+	margin-top: 1%;
+	padding-bottom:2%;
+	box-shadow: 0px 1px 5px #000000;
+	background-color: rgba(34,34,34,0.80);
+}
+
+.album_thumbnail_img {
+	position:relative;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,1%);
+	width:98%;
+	height: auto;
+	border-radius:2px;
+}
+
+
+@media (max-width: 740px) {
+	.album_thumbnail_container {
+		display:inline-block;
+		float:left;
+		width:33.33%;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:5px;
+		height:auto;
+	}
+
+	.album_thumbnail_btn:active {
+		background-color: rgba(171,0,0,1.00);
+		-webkit-transition: all .2s ease;
+		-moz-transition: all .2s ease;
+		-ms-transition: all .2s ease;
+		-o-transition: all .2s ease;
+		transition: all .2s ease;
+	}
+
+}
+
+@media (min-width: 741px) and (max-width: 1023px) {
+	.album_thumbnail_container {
+		position:relative;
+		display:inline-block;
+		float:left;
+		width:25%;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:5px;
+		height:auto;
+	}
+	
+	.album_thumbnail_btn:active {
+		background-color: rgba(171,0,0,1.00);
+		-webkit-transition: all .2s ease;
+		-moz-transition: all .2 ease;
+		-ms-transition: all .2 ease;
+		-o-transition: all .2 ease;
+		transition: all .2 ease;
+	}
+	
+}
+
+@media (min-width: 1024px) {
+	.album_thumbnail_container {
+		position:relative;
+		display:inline-block;
+		float:left;
+		width:20%;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:5px;
+		height:auto;
+	}
+
+	.album_thumbnail_btn:hover {
+		background-color: rgba(171,0,0,1.00);
+		-webkit-transition: all .2s ease;
+		-moz-transition: all .2s ease;
+		-ms-transition: all .2s ease;
+		-o-transition: all .2s ease;
+		transition: all .2s ease;
+		cursor: pointer;
+	}
+
+}
