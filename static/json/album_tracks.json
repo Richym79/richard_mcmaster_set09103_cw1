@@ -1,17 +1,17 @@
 [
 {"album_id":"1", "tracks": [
-		{"track_no":"1", "name":"A Thousnd Trees", "length":"3:02", "link":"Url to youtube for album version"},
-		{"track_no":"2", "name":"Looks like Chaplin", "length":"2:32", "link":"link"},
-		{"track_no":"3", "name":"More Life in a Tramps Vest", "length":"2:19", "link":"link"},
-		{"track_no":"4", "name":"Local Boy in the Photograph", "length":"3:22", "link":"link"},
-		{"track_no":"5", "name":"Traffic", "length":"4:54", "link":"link"},
-		{"track_no":"6", "name":"Not Up to You", "length":"4:37", "link":"link"},
-		{"track_no":"7", "name":"Check my Eyelids for Holes", "length":"2:43", "link":"link"},
-		{"track_no":"8", "name":"Same Size Feet", "length":"4:00", "link":"link"},
-		{"track_no":"9", "name":"Last of the Big Time Drinkers", "length":"2:45", "link":"link"},
-		{"track_no":"10", "name":"Goldfish Bowl", "length":"3:03", "link":"link"},
-		{"track_no":"11", "name":"Too Many Sandwiches", "length":"5:01", "link":"link"},
-		{"track_no":"12", "name":"Billy Davey's Daughter", "length":"3:45", "link":"link"}
+		{"track_no":"1", "name":"A Thousnd Trees", "length":"3:02", "link":"https://www.youtube.com/embed/d-S1o5OmMMo"},
+		{"track_no":"2", "name":"Looks like Chaplin", "length":"2:32", "link":"https://www.youtube.com/embed/noMxAL1Sn58"},
+		{"track_no":"3", "name":"More Life in a Tramps Vest", "length":"2:19", "link":"https://www.youtube.com/embed/A_kNK5oLbZs"},
+		{"track_no":"4", "name":"Local Boy in the Photograph", "length":"3:22", "link":"https://www.youtube.com/embed/6VqFXyv__go"},
+		{"track_no":"5", "name":"Traffic", "length":"4:54", "link":"https://www.youtube.com/embed/A3DCPiEE1Vc"},
+		{"track_no":"6", "name":"Not Up to You", "length":"4:37", "link":"https://www.youtube.com/embed/8s9AVkuJr9I"},
+		{"track_no":"7", "name":"Check my Eyelids for Holes", "length":"2:43", "link":"https://www.youtube.com/embed/s98SO3gAxgY"},
+		{"track_no":"8", "name":"Same Size Feet", "length":"4:00", "link":"https://www.youtube.com/embed/NwUzBueAsN4"},
+		{"track_no":"9", "name":"Last of the Big Time Drinkers", "length":"2:45", "link":"https://www.youtube.com/embed/AJ63iBkNypo"},
+		{"track_no":"10", "name":"Goldfish Bowl", "length":"3:03", "link":"https://www.youtube.com/embed/dnBkHRjMWRk"},
+		{"track_no":"11", "name":"Too Many Sandwiches", "length":"5:01", "link":"https://www.youtube.com/embed/I0qViaQByBM"},
+		{"track_no":"12", "name":"Billy Davey's Daughter", "length":"3:45", "link":"https://www.youtube.com/embed/u4se4uL_KJo"}
 		]
 },
 {"album_id":"2", "tracks": [
