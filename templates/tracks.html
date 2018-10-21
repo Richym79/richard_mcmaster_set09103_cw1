@@ -46,7 +46,7 @@
 			<div id="album_cover_container">
 				<div id="album_cover_{{album_info["id"]}}" class="album_cover">
 					<div class="album_cover_img">
-						<img src="{{ url_for('static', filename='images/'+album_info["image"]) }}" align="center" height="100%" alt="Stereophonics - Word Gets Around album"/>
+						<img style="height:100%; width:100%; object-fit: contain" src="{{ url_for('static', filename='images/'+album_info["image"]) }}" height="100%" alt="Stereophonics - Word Gets Around album"/>
 					</div>
 				</div>
 			</div>
