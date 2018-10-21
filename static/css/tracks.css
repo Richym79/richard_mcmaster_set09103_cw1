@@ -95,7 +95,11 @@
 		padding-left:1%;
 		padding-right:1%;
 		height:35px;
-		background-color: rgba(34,34,34,0.80);
+		color:#FFFFFF;
+		background-image: -webkit-repeating-linear-gradient(270deg,rgba(0,0,0,0.00) 0.52%,rgba(0,0,0,0.00) 84.46%,rgba(0,0,0,.80) 100%);
+		background-image: -moz-repeating-linear-gradient(270deg,rgba(0,0,0,0.00) 0.52%,rgba(0,0,0,0.00) 84.46%,rgba(0,0,0,1.00) 100%);
+		background-image: -o-repeating-linear-gradient(270deg,rgba(0,0,0,0.00) 0.52%,rgba(0,0,0,0.00) 84.46%,rgba(0,0,01.00) 100%);
+		background-image: repeating-linear-gradient(180deg(0,0,0,0.00) 0.52%,rgba(0,0,0,0.00) 84.46%,rgba(0,0,0,1.00) 100%);
 	}
 
 	.track_container:active {
