@@ -19,13 +19,25 @@
 	<div id="content">
 		<div class="content_header">
 				{% if play != 'None': %}
-					<a href="/tracks/?album={{album_info["album_id"]}}">
-						&lt;&lt; {{album_info["album_name"]}}
-					</a> | {{ tracks[play]["name"] }}
+					<table width="100%" height="100%" cellpadding="0" cellspacing="0">
+						<tr><td width="10px" valign="middle" align="left">
+							<a href="/tracks/?album={{album_info["album_id"]}}">
+								<span class="content_header_back_arrows">&lt;&lt;&lt;</span>
+							</a>
+						</td><td valign="middle" align="left">
+							<span class="content_header_text">| {{ tracks[play]["name"] }}</span>
+						</td></tr>
+					</table>
 				{% else: %}
-					<a href="/albums/?artist={{album_info["artist_id"]}}&artname={{album_info["artist"]}}">
-					&lt;&lt; {{ album_info["artist"] }}
-					</a> | {{ album_info["album_name"]}}
+					<table width="100%" height="100%" cellpadding="0" cellspacing="0">
+						<tr><td width="10px" valign="middle" align="left">
+							<a href="/albums/?artist={{album_info["artist_id"]}}&artname={{album_info["artist"]}}">
+								<span class="content_header_back_arrows">&lt;&lt;&lt;</span>
+							</a>
+						</td><td width="100%" valign="middle" align="left">
+							<span class="content_header_text">| {{ album_info["album_name"]}}</span>
+						</td></tr>
+					</table>
 				{% endif %}
 		</div>
 		<div id="track_player_content">	
@@ -40,6 +52,7 @@
 			</div>
 			</div>
 			<div class="track_player_bottom">
+				<div class="track_bottom_header">Tracks : {{ lentracks }}</div>
 				<div id="tracklist_container">
 				{% for track in tracks %}
 					<div class="track_container">
@@ -61,13 +74,14 @@
 			{% if play != 'None': %}
 			<div class="track_player_top">
 				<div id="track_vid_container">
-					<iframe width="100%" height="100%" src="{{tracks[play]["link"]}}" frameborder="0" allow"autoplay; encrypted-media" allowfullscreen></iframe>
+					<iframe width="100%" height="100%" src="{{tracks[play]["link"]}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 				</div>
 			</div>
 			<div class="track_player_bottom">
+				<div class="track_bottom_header">Lyrics</div>
 				<div id="lyric_container">
-					<p>{{ lyrics["lyrics"] }}</p>
+					<p>{{ lyrics }}</p>
 				</div>
 			<div>
 			{% endif %}		

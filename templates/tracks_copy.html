@@ -1,0 +1,74 @@
+<! doctype html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/main_layout.css') }}" type="text/css">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/tracks.css') }}" type="text/css">
+	<title>Jive Music Finder</title>
+</head>
+
+<body>
+	<div id="header">
+		<div id="header_app_logo"></div>
+		<div id="header_company_name">JIVE</div>
+	</div>
+	<div style="clear:both"></div>
+	<div id="content">
+		<div class="content_header">
+				{% if play != 'None': %}
+					<a href="/tracks/?album={{album_info["album_id"]}}">
+						{{album_info["album_name"]}}
+					</a> | {{ tracks[play]["name"] }}
+				{% else: %}
+					{{ album_info["artist"] }} | {{ album_info["album_name"]}}
+				{% endif %}
+		</div>
+		<div id="track_player_content">
+		<div id="track_player_top">		
+			{% if play == 'None': %}
+			<div id="album_cover_container">
+				<div id="album_cover_{{album_info["id"]}}" class="album_cover">
+					<div class="album_cover_img">
+						<img src="{{ url_for('static', filename='images/'+album_info["image"]) }}" align="center" height="100%" alt="Stereophonics - Word Gets Around album"/>
+					</div>
+				</div>
+			</div>
+			{% endif %}
+
+			{% if play != 'None': %}
+			<div id="track_vid_container">
+				<iframe width="100%" height="100%" src="{{tracks[play]["link"]}}" frameborder="0" allow"autoplay; encrypted-media" allowfullscreen></iframe>
+
+			</div>
+			{% endif %}
+		</div>
+
+		<div id="track_player_bottom">
+		
+			<div id="tracklist_container">
+			{% for track in tracks %}
+				<div class="track_container">
+					<a href='/tracks/?album={{album_info["album_id"]}}&playtrack={{track["track_no"]}}'>
+						<table width="100%" cellpadding="0" cellspacing="0" align="center">
+							<tr height="35px">
+								<td width="25px" align="center" valign="middle">{{ track["track_no"] }}</td>
+								<td align="left" valign="middle"><a href='/tracks/?album={{album_info["album_id"]}}&playtrack={{track["track_no"]}}'>{{ track["name"] }}</a></td>
+								<td align="right" valign="middle">{{ track["length"] }}</td>
+							</tr>
+						</table>
+					</a>
+				</div>
+			{% endfor %}
+			</div>
+
+		</div>
+		</div>
+	</div>
+
+	
+</body>
+
+</html>
