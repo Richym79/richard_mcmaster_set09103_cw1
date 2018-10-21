@@ -10,6 +10,19 @@ body {
 	overflow:hidden;
 }
 
+a {
+	text-decoration:none;
+	color:rgba(255,128,43,0.80);
+}
+
+a:hover {
+	color:rgba(255,128,43,1.00);
+}
+
+a:active {
+	color:rgba(242,242,242,0.80);
+}
+
 ::-webkit-scrollbar {
 	width: 6px;
 	height: 6px;
@@ -58,7 +71,7 @@ body {
 	padding-right:1%;
 	height:25px;
 	background-color: rgba(0,0,0,0.80);
-	font-size:20px;
+	font-size:14px;
 }	
 
 

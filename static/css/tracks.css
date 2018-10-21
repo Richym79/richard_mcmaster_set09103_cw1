@@ -51,6 +51,20 @@
 	overflow:hidden;
 }
 
+.track_bottom_header {
+	position:absolute;
+	top:0%;
+	left:0%;
+	width:98%;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:5px;
+	height:20px;
+	overflow:hidden;
+	font-size:14px;
+	background-color: rgba(0,0,0,0.80);
+}
+
 
 @media (max-width: 740px) {
 	#track_player_content {
@@ -82,15 +96,20 @@
 	#tracklist_container {
 		position:absolute;
 		width:100%;
-		top:0%;
+		top:25px;
 		padding-top:0px;
 		bottom:0%;
 		height:auto;
+		background-color: rgba(0,0,0,0.60);
+		overflow-x:hidden;
+		overflow-y:auto;
+		font-size:14px;
 	}	
 
 
 	.track_container {
 		position:relative;
+		font-size:14px;
 		width:98%;
 		padding-left:1%;
 		padding-right:1%;
@@ -109,7 +128,7 @@
 	#lyric_container {
 		position:absolute;
 		width:100%;
-		top:0%;
+		top:25px;
 		padding-top:0px;
 		bottom:0%;
 		height:auto;
