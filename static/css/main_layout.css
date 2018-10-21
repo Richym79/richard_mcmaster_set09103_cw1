@@ -69,11 +69,23 @@ a:active {
 	width:98%;
 	padding-left:1%;
 	padding-right:1%;
-	height:25px;
+	padding-top:0px;
+	height:30px;
 	background-color: rgba(0,0,0,0.80);
-	font-size:14px;
 }	
 
+.content_header_back_arrows {
+	margin-left:2px;
+	font-size:24px;
+	font-weight:bold;	
+}
+
+.content_header_text {
+	margin-top:1px;
+	margin-left:5px;
+	font-size:18px;
+	font-weight:bold;
+}
 
 #header_company_name {
 	display:inline-block;
