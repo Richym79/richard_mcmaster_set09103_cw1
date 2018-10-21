@@ -40,7 +40,8 @@
 		padding-top:10px;
 		height:20px;
 		overflow:hidden;
-		font-size:16px;
+		font-size:18px;
+		font-weight:bold;
 		background-color: rgba(0,0,0,0.80);
 		text-align:center;
 	}
@@ -168,7 +169,8 @@
 		padding-top:10px;
 		height:20px;
 		overflow:hidden;
-		font-size:16px;
+		font-size:18px;
+		font-weight:bold;
 		background-color: rgba(0,0,0,0.80);
 		text-align:center;
 	}
@@ -296,7 +298,8 @@
 		padding-top:10px;
 		height:20px;
 		overflow:hidden;
-		font-size:16px;
+		font-size:18px;
+		font-weight:bold;
 		background-color: rgba(0,0,0,0.80);
 		text-align:center;
 	}
