@@ -35,7 +35,7 @@
 					<a href="/albums/?artist={{artist["artist_id"]}}">
 					<div id="album_thumbnail_{{artist["artist_id"]}}" class="album_thumbnail_btn">
 						<div class="album_thumbnail_img">
-							<img src="{{ url_for('static', filename='images/'+artist["image"]) }}" width="100%" alt=""/>
+							<img style="height:100%; width:100%; object-fit: contain" src="{{ url_for('static', filename='images/'+artist["image"]) }}" width="100%" alt=""/>
 						</div>
 					</div>
 					</a>
